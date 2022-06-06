@@ -8,7 +8,7 @@
     <string name="help">Help</string>
 
     <!-- CD -->
-    <string name="cd_toggle_drawer">Toggle Drawer</string>
+    <string name="cd_toggle_drawer">Toggle drawer</string>
     <string name="cd_home_menu">Home menu</string>
     <string name="cd_settings_menu">Settings menu</string>
     <string name="cd_help_menu">Help menu</string>
