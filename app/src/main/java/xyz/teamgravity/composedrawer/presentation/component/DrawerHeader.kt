@@ -21,11 +21,11 @@ fun DrawerHeader() {
         modifier = Modifier
             .fillMaxWidth()
             .background(Color.Blue)
-            .padding(vertical = 64.dp),
+            .padding(vertical = 64.dp)
     ) {
         Text(
             text = stringResource(id = R.string.header),
-            fontSize = 60.sp,
+            fontSize = 60.sp
         )
     }
 }
