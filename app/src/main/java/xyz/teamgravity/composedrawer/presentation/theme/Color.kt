@@ -1,4 +1,4 @@
-package xyz.teamgravity.composedrawer.ui.theme
+package xyz.teamgravity.composedrawer.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
