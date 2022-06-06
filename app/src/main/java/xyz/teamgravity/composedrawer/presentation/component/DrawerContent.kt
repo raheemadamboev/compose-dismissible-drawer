@@ -8,7 +8,7 @@ import xyz.teamgravity.composedrawer.data.model.MenuModel
 fun DrawerContent(
     menus: List<MenuModel>,
     selectedMenu: MenuModel,
-    onMenuClick: (MenuModel) -> Unit,
+    onMenuClick: (menu: MenuModel) -> Unit,
 ) {
     Column {
         DrawerHeader()

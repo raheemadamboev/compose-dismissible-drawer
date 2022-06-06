@@ -16,7 +16,7 @@ import xyz.teamgravity.composedrawer.data.model.MenuModel
 fun DrawerBody(
     menus: List<MenuModel>,
     selectedMenu: MenuModel,
-    onMenuClick: (MenuModel) -> Unit,
+    onMenuClick: (menu: MenuModel) -> Unit,
 ) {
     LazyColumn {
         items(menus) { menu ->
