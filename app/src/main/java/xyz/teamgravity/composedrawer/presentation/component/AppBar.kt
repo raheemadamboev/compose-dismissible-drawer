@@ -1,17 +1,16 @@
 package xyz.teamgravity.composedrawer.presentation.component
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Menu
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.SmallTopAppBar
-import androidx.compose.material3.Text
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import xyz.teamgravity.composedrawer.R
 
 @Composable
 fun AppBar(
+    drawerOpen: Boolean,
     onNavigationClick: () -> Unit,
 ) {
     SmallTopAppBar(
@@ -21,7 +20,7 @@ fun AppBar(
         navigationIcon = {
             IconButton(onClick = onNavigationClick) {
                 Icon(
-                    imageVector = Icons.Default.Menu,
+                    imageVector = if (drawerOpen) Icons.Default.Close else Icons.Default.Menu,
                     contentDescription = stringResource(id = R.string.cd_toggle_drawer)
                 )
             }
