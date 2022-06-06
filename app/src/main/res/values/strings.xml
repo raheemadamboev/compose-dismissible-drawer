@@ -3,4 +3,7 @@
 
     <!-- Main -->
     <string name="header">Header</string>
+
+    <!-- CD -->
+    <string name="cd_toggle_drawer">Toggle Drawer</string>
 </resources>
